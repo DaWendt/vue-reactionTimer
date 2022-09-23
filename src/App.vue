@@ -1,6 +1,7 @@
 <template>
   <h1>Daniels reaction timer</h1>
   <button @click="start">play</button>
+  <Block> </Block>
 </template>
 
 <script>
@@ -10,7 +11,7 @@ import Block from './components/Block.vue'
 export default {
 
   name: 'App',
-  components: { },
+  components: { Block },
   data(){
     return {
       isPlaying: false,
