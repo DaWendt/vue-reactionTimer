@@ -4,8 +4,11 @@
 </template>
 
 <script>
+import Block from './components/Block.vue'
+
 
 export default {
+
   name: 'App',
   components: { },
   data(){
